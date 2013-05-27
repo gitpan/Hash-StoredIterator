@@ -4,11 +4,11 @@ author:
   - 'Chad Granum <exodist7@gmail.com>'
 build_requires:
   ExtUtils::CBuilder: 0
-  Fennec: 1.012
+  Fennec: 2.004
 configure_requires:
   Module::Build: 0.40
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,9 +17,9 @@ name: Hash-StoredIterator
 provides:
   Hash::StoredIterator:
     file: lib/Hash/StoredIterator.pm
-    version: 0.003
+    version: 0.004
 requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.003
+version: 0.004
