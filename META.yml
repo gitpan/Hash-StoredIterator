@@ -4,6 +4,7 @@ author:
   - 'Chad Granum <exodist7@gmail.com>'
 build_requires:
   ExtUtils::CBuilder: 0
+  ExtUtils::ParseXS: 3.15
   Fennec: 2.004
 configure_requires:
   Module::Build: 0.40
@@ -17,9 +18,9 @@ name: Hash-StoredIterator
 provides:
   Hash::StoredIterator:
     file: lib/Hash/StoredIterator.pm
-    version: 0.004
+    version: 0.005
 requires:
   perl: v5.10.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.004
+version: 0.005

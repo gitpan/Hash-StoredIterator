@@ -13,6 +13,7 @@ my $build = Module::Build->new(
     },
     build_requires => {
         'Fennec' => '2.004',
+        'ExtUtils::ParseXS' => '3.15',
     },
 );
 
